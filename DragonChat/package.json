@@ -1,0 +1,14 @@
+{
+  "name": "dragonchat",
+  "version": "1.0.0",
+  "description": "A cross-platform chat app.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "M1nordragon",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}

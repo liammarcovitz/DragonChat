@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="style.css">
+    <title>DragonChat</title>
+  </head>
+  <body>
+    <div id="messages">
+      <p id="latest-message" class="messages">Attempting connection...</p>
+    </div>
+    <div id="footer">
+      <input type="text" id="input-message" placeholder="Type a message...">
+      <button id="send-button">Send Message</button>
+      <input type="text" id="username-box" placeholder="Username...">
+      <button id="set-user">Set Username</button>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

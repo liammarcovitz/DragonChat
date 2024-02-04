@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+}
+#footer {
+    position: fixed;
+    width: 100%;
+    border-top: 1px solid gray;
+    background-color: lightgray;
+    bottom: 0;
+    height: 20%;
+    align-items: flex;
+    display: flex;
+}
+#send-button {
+    margin: 20px 20px 20px 20px;
+}
+#set-user {
+    margin: 20px 20px 20px 20px;
+}
+#input-message {
+    margin: 20px 20px 20px 20px;
+}
+#username-box {
+    margin: 20px 20px 20px 20px;
+}
