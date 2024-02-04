@@ -8,10 +8,12 @@ let inputField = document.getElementById("input-message");
 let setUserButton = document.getElementById("set-user");
 let usernameBox = document.getElementById("username-box");
 
+var link; // set this variable to the link of the server.
+
 inputField.style.display = "none";
 sendButton.style.display = "none";
 
-const ws = new WebSocket('ws://liammarcovitz.com/dragonchat');
+const ws = new WebSocket("ws:" + link);
 
 ws.on('error', () => {
     console.error();
