@@ -5,3 +5,6 @@ For client install:
 
 For server install:
 "*DragonChatServer*" directory
+
+**Initialize the variable **link** in the file "*DragonChat/index.js*" to
+the server's URL.
